@@ -1,0 +1,178 @@
+
+#title {
+  background-color: #95B8D1;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  color: #D6EADF;
+  font-family: 'Rubik';
+  font-size: 1.5;
+  font-weight: bold;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Rubik';
+  font-weight: bold;
+
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand {
+  font-family: 'Poppins';
+  font-size: 2.0rem;
+  font-weight: bold;
+  color:#8f8f8f;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-item {
+  font-size: 1.5rem;
+}
+
+.navbar-link {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  z-index: 1;
+  position: absolute;
+
+}
+
+/*Features*/
+#features {
+  font-family: 'Rubik', sans-serif;
+  padding: 7% 15%;
+  background-color: #D6EADF;
+  z-index: 2;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+.icon {
+  color: #95B8D1;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #809BCE
+}
+
+/*Testimonials*/
+#testimonials {
+  font-family: 'Rubik', sans-serif;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #95B8D1;
+  color: #D6EADF;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*Pricing*/
+#pricing {
+  font-family: 'Rubik', sans-serif;
+  background-color: #D6EADF;
+  padding: 100px;
+  text-align: center;
+}
+.pricing-header {
+  color: #000;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*Press*/
+#press {
+  background-color: #95B8D1;
+  text-align: center;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/*Call to Action Section CTA*/
+#cta {
+  font-family: 'Rubik', sans-serif;
+  background-color: #95B8D1;
+  color: #D6EADF;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Rubik';
+  font-size: 3.0rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/*Footer*/
+#footer {
+  font-family: 'Rubik', sans-serif;
+  background-color: #D6EADF;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*Media Query*/
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0)
+  }
